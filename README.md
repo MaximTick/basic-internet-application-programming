@@ -1,1 +1,1 @@
-# basic-internet-application-programming
+# Основы программирования интернет-приложений
