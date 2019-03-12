@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>WEB5D</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="web5d.js"></script>
+</head>
+<body>
+    <form>
+        <label>x: </label>
+        <input type="text" id="X-Value-x" /> <br>
+        <label>y: </label>
+        <input type="text" id="X-Value-y" /> <br>
+        <input type="button" value="sum" onclick="sendHeaders()" /> <br>
+        <label>z: </label>
+        <input type="text" id="X-Value-z" />
+    </form>
+    <br/>
+    <form>
+        <label>n: </label>
+        <input type="text" id="X-Rand-N" /><br>
+        <input type="button" value="randXML" onclick="getRand()" /><br />
+        <label>result: </label>
+        <input type="text" id="result" />
+    </form><br />
+    <form>
+        <label>n: </label>
+        <input type="text" id="n" /><br />
+        <input type="button" value="randJSON" onclick="getRandJSON()" /> <br>
+        <label>result: </label>
+        <input type="text" id="res" />
+    </form><br/>
+    <form>
+        <input type="button" value="XMLHttpRequest" onclick="XMLreq()" />
+    </form>
+</body>
+</html>
