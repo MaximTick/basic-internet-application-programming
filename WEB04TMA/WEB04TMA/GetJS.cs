@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace WEB04TMA.App_Code
+namespace WEB04TMA
 {
     public class GetJS : IHttpHandler
     {
